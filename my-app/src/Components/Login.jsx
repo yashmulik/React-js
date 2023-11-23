@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router-dom"
 
 function Login(){
+    
     const router =useNavigate();
 
     function gotoRegister(){
-        router( '/Rgister ' )
+        router('/Register')
 
     }
 
