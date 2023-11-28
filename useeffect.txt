@@ -1,0 +1,8 @@
+type 1 : useeffect(() => {console.log("hii") })
+         it'll execute the code when component renders on broweser and also when state changes
+
+type 2 : useeffect(() => {console.log("type 2") }, [])
+         it'll execute the code only the component render on broweser
+
+type 3 : useeffect(()=> {}, [state])
+         it'll execute the code on first time of render and wjenever state changes.
